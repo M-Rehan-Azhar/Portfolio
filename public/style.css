@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
+
+.navbar.scrolled {
+    background: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(10px);
+}
+
+@keyframes jiggle {
+
+    50% {
+        transform: translateY(-5px);
+    }
+
+}
+.animate-jiggle {
+    animation: jiggle 1.5s infinite;
+}
+
+/* Smooth scrolling for anchor links */
+html {
+    scroll-behavior: smooth;
+}
